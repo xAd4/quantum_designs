@@ -91,7 +91,7 @@ h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #df1529;
+  background: #15df37;
   color: #ffffff;
   text-align: left;
   padding: 15px;
@@ -1694,6 +1694,39 @@ section,
 
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
+}
+
+.isotope-item {
+  display: block;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope-filters {
+  padding: 0;
+  margin: 0 0 30px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.isotope-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.isotope-filters li:hover,
+.isotope-filters li.filter-active {
+  color: #fff;
+  background-color: var(--primary-color);
 }
 
 /*--------------------------------------------------------------
