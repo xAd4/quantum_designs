@@ -10,3 +10,8 @@ class ServiceDetails(TemplateView):
 
 class StarterPage(TemplateView):
     template_name = "core/starter-page.html"
+
+class Blog(TemplateView):
+    template_name = "core/implementation/blog.html"
+class BlogDetails(TemplateView):
+    template_name = "core/implementation/blog-details.html"
