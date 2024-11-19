@@ -1,0 +1,14 @@
+# Ignorar carpetas del sistema
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de configuración sensibles
+.env
+
+# Archivos de logs
+*.log
+
+# Otros archivos o carpetas irrelevantes
+migrations/

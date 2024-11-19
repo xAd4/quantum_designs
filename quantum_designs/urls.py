@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 # Apps
 from core import urls
+from profiles import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Apps
     path("", include("core.urls")),
+    path("", include("profiles.urls")),
 ]
