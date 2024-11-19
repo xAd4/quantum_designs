@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
 # Django
 *.log
 *.pot
@@ -15,6 +16,7 @@ __pycache__/
 db.sqlite3
 /media
 /staticfiles
+/migrations
 
 # Virtual Environment
 env/
@@ -44,7 +46,3 @@ ehthumbs.db
 # Project
 .media
 .sent_emails
-
-# Docker
-.Dockerfile
-.docker-compose.yml
